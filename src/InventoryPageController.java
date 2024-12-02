@@ -80,7 +80,7 @@ public class InventoryPageController {
             albumArray.add(album);
             Alert alert = new Alert(AlertType.INFORMATION);
             alert.setTitle("Album berhasil ditambahkan");
-            alert.setContentText("album "+ x+ " berhasil dihapus");
+            alert.setContentText("album "+ title+ " berhasil ditambahkan");
             alert.showAndWait();
             clear();
 
