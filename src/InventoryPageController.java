@@ -76,7 +76,6 @@ public class InventoryPageController {
             rented = Integer.valueOf(rentedInput.getText());
             available = total - rented;
             Album album = new Album(title, creator, total, rented, available);
-            int x = album.getAvailable();
             albumArray.add(album);
             Alert alert = new Alert(AlertType.INFORMATION);
             alert.setTitle("Album berhasil ditambahkan");
